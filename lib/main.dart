@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(NotesApp());
+  runApp(const NotesApp());
 }
 
 class NotesApp extends StatelessWidget {
@@ -9,6 +9,6 @@ class NotesApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp();
   }
 }
