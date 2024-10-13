@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class NoteItem extends StatelessWidget {
@@ -7,16 +6,15 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding:const EdgeInsets.only(top: 24,bottom: 24,left: 16),
+      padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
       decoration: BoxDecoration(
-        color:const  Color(0xffFFCC80),
+        color: const Color(0xffFFCC80),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           ListTile(
-            
             title: const Text(
               'Add your note ',
               style: TextStyle(color: Colors.black, fontSize: 26),
@@ -35,14 +33,14 @@ class NoteItem extends StatelessWidget {
                 )),
           ),
           const Padding(
-             padding:  EdgeInsets.only(right: 14.0),
-             child: Text(
+            padding: EdgeInsets.only(right: 14.0),
+            child: Text(
               'the date of note',
               style: TextStyle(
                 color: Colors.black,
               ),
-                       ),
-           )
+            ),
+          )
         ],
       ),
     );
