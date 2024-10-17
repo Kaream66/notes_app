@@ -12,10 +12,10 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      validator: (value){
-        if(value?.isEmpty ??true){
+      validator: (value) {
+        if (value?.isEmpty ?? true) {
           return 'This Field Is required';
-        }else{
+        } else {
           return null;
         }
       },
