@@ -21,6 +21,7 @@ class NotesView extends StatelessWidget {
               });
         },
         child: const Icon(Icons.add),
+        
       ),
     );
   }
